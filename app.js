@@ -1,83 +1,28 @@
-//Fonksiyonlar
+//ARRAYS
 
-function sum() {
-    var num1 = 10
-    var num2 = 20
-    var num3 = 30
-    var total = num1 + num2 + num3
-    return total
-}
-console.log(sum())
+//1.way
+var friendList = ['Can' , 'Ece' , 'Ali', 'Naz']
 
-function cikarma() {
-    var num1 = 10
-    var num2 = 20
-    var num3 = 30
-    var total = num3 - num2 - num1
-    return total
-}
-console.log(cikarma())
+//2.way
+var friendList1 = new Array('Can' , 'Ece' , 'Ali', 'Naz')
 
-//Fonksiyon Tanimlama 
-function fonksiyonIsmi(parametre1 , parametre2) {
-        return donusDegeri
-}
+console.log(friendList)
+console.log(friendList1)
+console.log(friendList[0])
+console.log(friendList[3])
+console.log(friendList[10]) //undefined index yok
 
-//1-Parametresiz Fonksiyon 
+//Can --> Han
+friendList[0] = 'Han'
+console.log(friendList)
 
-function greet () {
-    console.log('Hi!')
-}
+//Naz --> Derya
+friendList[3] = 'Derya'
+console.log(friendList)
 
-greet()
+//Yeni Deger Ekleme --> +Deniz
+friendList[4] = 'Deniz'
+console.log(friendList)
 
-//2-Parametreli Fonksiyon 
-
-function greetpeople(nameOfPeople) {
-    console.log('Hi!' + nameOfPeople)
-}
-
-greetpeople('Ali')
-greetpeople(null)
-greetpeople('Naz' , 'Ece')
-greetpeople(false)
-greetpeople()
-
-//3-Birden Fazla parametreli Fonksiyon
-
-function information (location, price, rating) {
-    console.log(`location : ${location}.
-     Price : ${price}.
-      Rating : ${rating}`)
-}
-
-information('New York' , '2000' , '5')
-
-//Fonksiyon cagirip yeni bir degiskende saklama
-
-const mySum = sum() + 100
-console.log(mySum)
-
-//Fonksiyonu parametre ve return ile cagirma
-
-function diff(num1 , num2){
-    return num1 - num2
-}
-
-console.log(diff(100,50))
-console.log(diff(1000,50))
-
-//Fonksiyonlari 2 sekilde tanimlayip cagirabiliyoruz
-//1) Direkt tanimlama ve cagirma 
-//2) Fonksiyonu bir degisken ile tanimlayip cagirma
-
-function square(num){
-    return num*num
-}
-
-console.log(square(8))
-
-const squareofNumber = function square(num){
-    return num*num
-}
-console.log(squareofNumber(8))
+friendList[7] = 'Sinan'
+console.log(friendList)
