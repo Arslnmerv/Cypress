@@ -32,7 +32,7 @@ function adYas(ad, yas) {
 adYas('Ali ', 42)
 adYas('Ece ', 27)
 
-// 
+
 function info(location, price, rating) {
     console.log(location + ' ' + price + ' ' + rating)
 }

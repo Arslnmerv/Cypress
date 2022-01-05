@@ -22,4 +22,3 @@ console.log(typeof (myName))
 
 var myCar = null
 console.log(typeof (myCar))
-

@@ -19,10 +19,12 @@ console.log(myAge)
 myAge = "35"
 console.log(myAge)
 
+
 const myCar = "Ford"
 console.log(myCar)
 // myCar = "Mercedes"
 // console.log(myCar)
+
 
 var employee = ["Ali", "Can", "Ece"]
 console.log(employee)
