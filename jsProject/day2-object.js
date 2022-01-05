@@ -21,14 +21,14 @@ console.log(person)
 console.log(typeof(person))  //object
 
 //Bilgileri cagirma 
-//1) .notation
+//1).notation
 
 console.log(person.fName)
 console.log(typeof(person.fName))
 console.log(person.lName)
 console.log(typeof(person.age))
 
-//2) [] notation
+//2)[] notation
 console.log(person['fName'])
 console.log(person['lName'])
 console.log(person['age'])

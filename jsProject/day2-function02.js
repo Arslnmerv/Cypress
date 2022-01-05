@@ -18,7 +18,8 @@ function cikarma() {
 }
 console.log(cikarma())
 
-//Fonksiyon Tanimlama 
+//FONKSIYON TANIMLAMA
+
 function fonksiyonIsmi(parametre1 , parametre2) {
         return donusDegeri
 }

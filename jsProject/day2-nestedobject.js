@@ -28,7 +28,6 @@ console.log(person.fName)
 console.log(person.isEmployed)
 console.log(person.address)
 console.log(person.address.city)
-
 console.log(person.hobies)
 console.log(person.hobies[0])
 console.log(person.hobies[4]) //undefined because there is no index
