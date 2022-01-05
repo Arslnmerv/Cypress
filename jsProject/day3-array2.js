@@ -10,7 +10,6 @@ months.splice(1, 0, 'Feb')
 //0: herhangi birseyi silme
 //Feb'i ekle
 
-
 console.log(months)
 
 months.splice(4, 1, 'May')

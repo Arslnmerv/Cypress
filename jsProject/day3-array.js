@@ -34,7 +34,7 @@ console.log(ages.indexOf(30, 3)) //5
 
 //30 rakami 2. defa kacinci indexte var?
 
-//retirn -1 eslesme yok demek
+//return -1 eslesme yok demek
 console.log(ages.indexOf(20, 3))
 console.log(ages.indexOf(80))
 

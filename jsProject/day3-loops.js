@@ -52,4 +52,3 @@ for(let i=0; i<=5; i++){
     myArray.forEach(eachItem => console.log(eachItem))
     
     
-    
