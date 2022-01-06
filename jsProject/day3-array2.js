@@ -36,7 +36,7 @@ console.log(months)
 months.splice(-2)
 console.log(months)
 
-months.splice(2,0, 'March', 'April', 'May', 'June')
+months.splice(2, 0, 'March', 'April', 'May', 'June')
 console.log(months)
 
 //9) slice(startIndex(dahil), endIndex(haric))
